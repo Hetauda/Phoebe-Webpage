@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /docs/ukcp-code-of-ethics-and-professional-practice-2019.pdf
