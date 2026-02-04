@@ -169,19 +169,27 @@ i {margin-right: 1rem;}
   nav {
     flex-direction: column; 
     height: auto;           
-    padding: 10px;
-    align-items: center;
+    padding: 15px 10px;    
     text-align: center;
+    gap: 10px;            
   }
 
   nav h1 {
-    font-size: 1.2rem;      
-    margin-bottom: 5px;
+    font-size: 1.5rem;      
+    width: 100%;            
+    margin: 0;
   }
 
   .nav {
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
     padding: 0;
+    gap: 20px;               
+  }
+  
+  .nav-li {
+    float: none;            
   }
 }
 
@@ -199,4 +207,5 @@ i {margin-right: 1rem;}
     }
 
   }
+
 
